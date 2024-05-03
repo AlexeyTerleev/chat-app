@@ -1,0 +1,31 @@
+.DialogMenuContainet {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.DialogMenuContainet::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 20px;
+  }
+  
+.DialogMenuContainet::-webkit-scrollbar-track {
+    background-color: none;
+}
+
+.DialogMenuContainet::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+}
+
+
+.Active {
+    background-color: #414040;
+}
+
+.Dialog {
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+}
